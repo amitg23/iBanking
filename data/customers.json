@@ -1,0 +1,29 @@
+{
+  "1": {
+    "customer_id": 1,
+    "first_name": "John",
+    "last_name": "Smith",
+    "dob": "01/01/2000",
+    "address": "aassdd",
+    "ssn": "***-**-6789",
+    "checking_account": {
+      "account_type": "Checking",
+      "account_number": "913329",
+      "balance": 100.0,
+      "transactions": [
+        {
+          "type": "deposit",
+          "amount": 100.0,
+          "description": "Initial deposit",
+          "timestamp": "2026-09-17 12:13:46"
+        }
+      ]
+    },
+    "savings_account": {
+      "account_type": "Savings",
+      "account_number": "836281",
+      "balance": 0.0,
+      "transactions": []
+    }
+  }
+}
